@@ -1,0 +1,28 @@
+
+.body{   
+position: relative;
+background: #191765;
+}
+
+.my-name{
+color: #FFFFFF;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+}
+.nav-mobile{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
