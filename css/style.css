@@ -1,245 +1,238 @@
-.body{   
-position: relative;
-background: #191765;
-display: grid;
+.body {
+  position: relative;
+  background: #191765;
+  display: grid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.toolbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 2px;
-    border: 1px solid var(--border-color);
-    background: var(--footer-background);
-    color: var(--footer-font);
-    font-size: 14px;
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px;
+  border: 1px solid var(--border-color);
+  background: var(--footer-background);
+  color: var(--footer-font);
+  font-size: 14px;
 }
-
-.menu_item{
- font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-}
-.skill-name{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    color: #9390FF;
-    
-
-}
-
-
-.my-name{
-color: #FFFFFF;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 16px;
-}
-
-
-
 
 .menu_item {
-    display: block;
-    padding: 10px 0 10px 30px;
-  }
-  
-  .menu_item:hover {
-    text-decoration: underline;
-  }
-  .left,
-  .right {
-    display: flex;
-  }
-  
-  .right {
-    margin-right: 30px;
-  }
-  
-
-.intro{
-    display: flex;
-    flex-direction: column; 
-    
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0 10px 30px;
 }
 
-.menu_mail{
-    display: block;
-    padding: 10px 0 10px 30px;
+.skill-name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #9390ff;
 }
 
-
-.big-name{
- position: static;
-font-family: Roboto;
-font-size: 48px;
-line-height: 72px;
-text-align: center;
-letter-spacing: 0.37px;
-color: #7D73FC;
-margin: 12px 0px;
-flex: 2;
+.my-name {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
 }
 
-.small-name{
-    font-weight: 500;
-    font-size: 32px;
-    font-family: 'Roboto';
-    line-height: 44px;
-    display: flex;
-    align-self:center;
-    text-align: center;
-    color: #EDECFF;
-    flex: 1;
+.menu_item:hover {
+  text-decoration: underline;
 }
 
-.can-do{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    color: #B3BAC5;
-    border-bottom: 1px solid #646369;
-    padding-bottom: 70px;
+.left,
+.right {
+  display: flex;
 }
 
-.circle-1{
-position: absolute;
-width: 184px;
-height: 184px;
-left: 69px;
-top: 237px;
-background: #EDECFF;
-filter: blur(50px);
+.right {
+  margin-right: 30px;
 }
 
-.circle-2{ 
-position: absolute;
-width: 226px;
-height: 226px;
-left: 1143px;
-top: 546px;
-background: #EDECFF;
-filter: blur(50px);
+.intro {
+  display: flex;
+  flex-direction: column;
 }
 
-.main-section{
-display: flex;
-flex-direction: column;
-width: 448px;
-justify-self: center;
+.menu_mail {
+  display: block;
+  padding: 10px 0 10px 30px;
 }
 
-.main-section > *{
-        margin-right: 1.25em;
+.big-name {
+  position: static;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  margin: 12px 0;
+  flex: 2;
 }
 
-.main{
-display: flex;
-align-items: flex-start;
-border-bottom: 1px solid #646369
+.small-name {
+  font-weight: 500;
+  font-size: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 44px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  color: #edecff;
+  flex: 1;
 }
 
-.main > *{
-    margin-right: 1.25em;
+.can-do {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #b3bac5;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 70px;
 }
 
-.main-section ul{
-
-    list-style: none;
-    padding-left: 0px;
+.circle-1 {
+  position: absolute;
+  width: 184px;
+  height: 184px;
+  left: 69px;
+  top: 237px;
+  background: #edecff;
+  filter: blur(50px);
 }
 
-.main a{
- font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-text-decoration: none;
-margin: 8px;
-display: flex;
-justify-content: space-between;
+.circle-2 {
+  position: absolute;
+  width: 226px;
+  height: 226px;
+  left: 1143px;
+  top: 546px;
+  background: #edecff;
+  filter: blur(50px);
 }
 
-.items{
-    position: static;
-    width: 68.08px;
-    font-size: 13.1389px;
-    line-height: 25px;
-    align-items: center;
-    color: #FFFFFF;
-
-
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  justify-self: center;
 }
-.box{
-    display: flex;
-    align-items: stretch;
-    justify-content: stretch;
-    flex-wrap: wrap;
-    min-height: 213px;
-    flex-direction: column;
-    padding-right: 56px;
-    padding-top: 30px;
+
+.main-section > * {
+  margin-right: 1.25em;
 }
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #646369;
+}
+
+.main > * {
+  margin-right: 1.25em;
+}
+
+.main-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main a {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  position: static;
+  width: 68.08px;
+  font-size: 13.1389px;
+  line-height: 25px;
+  align-items: center;
+  color: #fff;
+}
+
+.box {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  min-height: 213px;
+  flex-direction: column;
+  padding-right: 56px;
+  padding-top: 30px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-items {
+  width: 40px;
+}
+
 @media only screen and (max-width: 768px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    justify-content: center;
+  }
 
-    .main {
-        display: flex;
-        flex-direction: row;
-        flex-flow: wrap;
-        justify-content: space-between;        
-        }
+  .main {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
 
-    .main > * {
-        margin-right: 1.25em;
-    }
+  .main > * {
+    margin-right: 1.25em;
+  }
 
-    *, *:before, *:after {
-        box-sizing: border-box;
-        justify-content: center;
-    }
-    .list{
-        flex: 1 1 50%;
+  .list {
+    flex: 1 1 50%;
+  }
 
-    }
+  .circle-1 {
+    width: 160px;
+    height: 160px;
+    left: -106px;
+    top: 0;
+    background: #edecff;
+    filter: blur(50px);
+  }
 
-    .circle-1{
-        width: 160px;
-height: 160px;
-left: -106px;
-top: 0px;
-background: #EDECFF;
-filter: blur(50px);
-        }
-                
-        .circle-2{ 
-            position: absolute;
-            width: 68px;
-            height: 68px;
-            left: 339px;
-            top: 495px;
-            background: #EDECFF;
-            filter: blur(50px);
-        }
-
-        @media only screen and (max-width: 768px) {
-
-
-    }
-
+  .circle-2 {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 495px;
+    background: #edecff;
+    filter: blur(50px);
+  }
 }
