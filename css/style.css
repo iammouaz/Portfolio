@@ -168,7 +168,7 @@ button {
   position: absolute;
   width: 108px;
   height: 402px;
-  left: 1675px;
+  left: 1296px;
   top: 1600px;
   background: #EDECFF;
   filter: blur(50px);
@@ -179,18 +179,18 @@ button {
   position: absolute;
   width: 308px;
   height: 155px;
-  left: -41px;
-  top: 2462px;
+  left: 0;
+  top: 2279px;
   background: #EDECFF;
   filter: blur(50px);
 }
 
 .circle-6 {
   position: absolute;
-  width: 246.19px;
-  height: 916.38px;
-  left: 1500px;
-  top: 2162px;
+  width: 74px;
+  height: 600px;
+  left: 1160px;
+  top: 2471px;
   background: #EDECFF;
   filter: blur(50px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);}
@@ -288,7 +288,7 @@ align-items: center;
 .all-items{
   flex-wrap: wrap;
   display: flex;
-  padding: 175px
+  padding: 34px;
 }
 
 .works{
