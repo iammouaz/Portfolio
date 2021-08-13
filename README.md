@@ -1,18 +1,31 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio
+# Portfolio
 
-![screenshot](./img/Screenshot.png)
-
+> this is the My Portfolio Project .
+                    
 ## Built With
 
 - HTML
-- CSS(Flexbox)
+- CSS
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1.Clone The Reop into your local : https://github.com/iammouaz/Portfolio.git
+
+2. Open a commend line for same dirctionry of the project folder .
+
+and you are ready to work on
 
 ## Authors
 
-👤 **Mouaz Molkey**
+👤 **JustMe(Mouaz El Molkey)**
 
 - GitHub: [@iammouaz](https://github.com/iammouaz)
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
