@@ -1,13 +1,10 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 
 # Portfolio
 
 > this is the My Portfolio Project .
 > ![screenshot](./img/Screenshot.png)
-
-                    
+  
 ## Built With
 
 - HTML
