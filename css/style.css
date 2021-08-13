@@ -333,9 +333,16 @@ button {
   color: #dfe1e6;
 }
 
-.work-lang {
-  gap: 30px;
+.lang-ul {
   display: flex;
+  gap: 25px;
+}
+
+.lang {
+  list-style: none;
+  color: white;
+  border-right: 1px solid #646369;
+  padding-right: 7px;
 }
 
 .lets {
