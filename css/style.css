@@ -393,11 +393,14 @@ color: #EBEBFF;
 .small-fe{
   padding: 10px;
   width: 285px;
+  
 }
 .big-fe{
   grid-column: span 2;
   padding: 10px;
+  text-align: center;
 }
+
 
 .button {
   border: none;
@@ -603,7 +606,12 @@ display:none ;
   flex-direction: column;
   padding-top: 15px;
 }
-  
+
+
+.small-fe {
+  display: none;
+}
+
 
 
 }
