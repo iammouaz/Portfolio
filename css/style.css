@@ -375,7 +375,6 @@ button {
 .contactForm {
   display: flex;
   flex-direction: column;
-
 }
 
 .form-control {
@@ -418,9 +417,9 @@ button {
 }
 
 .button:hover {
-background-color: white;
-color: #9390ff;
-text-decoration: underline;
+  background-color: white;
+  color: #9390ff;
+  text-decoration: underline;
 }
 
 .form-massage {
@@ -430,7 +429,6 @@ text-decoration: underline;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 150%;
   margin: 20px;
-
 }
 
 @media only screen and (max-width: 768px) {
