@@ -357,8 +357,9 @@ button {
 }
 
 .contact-me {
-  display: grid;
+  display: flex;
   place-items: center;
+  flex-direction: column;
 }
 
 .contact {
@@ -369,6 +370,12 @@ button {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .form-control {
