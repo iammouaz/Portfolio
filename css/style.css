@@ -370,7 +370,7 @@ button {
 }
 
 .contact {
-  width: 327px;
+  width: 707px;
   font-family: 'Inter var', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -397,7 +397,7 @@ button {
   color: #000;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 175%;
+  width: 350%;
   margin: 10px;
   padding-left: 5px;
 }
@@ -446,7 +446,7 @@ button {
   font-size: 14px;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 175%;
+  width: 350%;
   margin: 20px;
   font-family: 'Inter var', sans-serif;
   font-style: normal;
@@ -640,9 +640,15 @@ button {
     flex-direction: column;
     padding-top: 15px;
   }
+  .contact {
+    width: 350px;
+  }
+  .form-massage{
+    width: 175%;
+  }
 
-  .small-fe {
-    display: none;
+  .form-control{
+    width: 175%;
   }
 
   @media only screen and (max-width: 370px) {
