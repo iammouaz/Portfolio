@@ -5,11 +5,10 @@
   display: grid;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 }
-
 
 form textarea {
   font-family: Arial, Helvetica, sans-serif;
@@ -106,10 +105,6 @@ img {
   display: flex;
 }
 
-
-
-
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -125,10 +120,10 @@ img {
   position: static;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
-font-weight: bold;
-font-size: 90px;
-line-height: 105px;
-text-align: center;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 105px;
+  text-align: center;
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
@@ -266,7 +261,8 @@ text-align: center;
   color: #fff;
 }
 
-.item1, .item2{
+.item1,
+.item2 {
   margin-top: 80px;
 }
 
@@ -330,8 +326,8 @@ text-align: center;
 .my-works {
   padding-bottom: 100px;
   display: block;
-max-width: 1080px;
-margin: 0 auto;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .all-items {
@@ -486,7 +482,6 @@ margin: 0 auto;
   margin-bottom: 75px;
 }
 
-
 @media only screen and (max-width: 1000px) {
   *,
   *::before,
@@ -499,9 +494,11 @@ margin: 0 auto;
   .right {
     display: none;
   }
+
   .left {
     padding-left: 20px;
   }
+
   .nav-toggle {
     display: block;
   }
@@ -519,14 +516,17 @@ margin: 0 auto;
   .list {
     flex: 1 1 50%;
   }
-  .big-name{
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 72px;text-align: center;
-letter-spacing: 0.37px;
-color: #7D73FC;
+
+  .big-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #7d73fc;
   }
+
   .main a {
     font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
@@ -534,8 +534,9 @@ color: #7D73FC;
     font-size: 15px;
     line-height: 24px;
     align-items: center;
-    color: #F5F5FF;
-}
+    color: #f5f5ff;
+  }
+
   .circle-1 {
     width: 160px;
     height: 160px;
@@ -662,21 +663,20 @@ color: #7D73FC;
     font-size: 32px;
     line-height: 44px;
     align-self: baseline;
-    
   }
 
   .work-des {
     position: static;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    color: #DCDCE8;
+    color: #dcdce8;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 24px 0;
   }
 
   .work-lang {
@@ -714,7 +714,7 @@ color: #7D73FC;
     flex: 1 1 100%;
   }
 
-  .see-project{
+  .see-project {
     align-self: start;
   }
 
