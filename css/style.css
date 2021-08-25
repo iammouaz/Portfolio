@@ -4,9 +4,12 @@
   background: #191765;
   display: grid;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding-left: 30px;
-  padding-right: 30px;
+  justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
 }
+
 
 form textarea {
   font-family: Arial, Helvetica, sans-serif;
@@ -38,11 +41,11 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   background: #9390ff;
-  margin-top: 80px;
 }
 
 img {
   user-select: none;
+  width: 105%;
 }
 
 .toolbar {
@@ -103,17 +106,14 @@ img {
   display: flex;
 }
 
-.right {
-  padding-right: 100px;
-}
 
-.left {
-  padding-left: 100px;
-}
+
+
 
 .intro {
   display: flex;
   flex-direction: column;
+  padding-top: 115px;
 }
 
 .menu_mail {
@@ -124,10 +124,11 @@ img {
 .big-name {
   position: static;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 48px;
-  line-height: 72px;
-  text-align: center;
-  letter-spacing: 0.37px;
+  font-style: normal;
+font-weight: bold;
+font-size: 90px;
+line-height: 105px;
+text-align: center;
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
@@ -135,10 +136,9 @@ img {
 
 .small-name {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 44px;
-  display: flex;
   align-self: center;
   text-align: center;
   color: #edecff;
@@ -229,6 +229,7 @@ img {
 
 .main-section > * {
   margin-right: 1.25em;
+  margin-top: 43px;
 }
 
 .main {
@@ -265,6 +266,10 @@ img {
   color: #fff;
 }
 
+.item1, .item2{
+  margin-top: 80px;
+}
+
 .box {
   display: flex;
   align-items: stretch;
@@ -294,6 +299,7 @@ img {
 .social-list-footer {
   list-style-type: none;
   text-decoration: none;
+  display: flex;
   gap: 10px;
   text-align: center;
   margin-left: -50px;
@@ -323,11 +329,13 @@ img {
 
 .my-works {
   padding-bottom: 100px;
+  display: block;
+max-width: 1080px;
+margin: 0 auto;
 }
 
 .all-items {
   display: grid;
-  padding: 34px;
   grid-template-columns: auto auto;
   gap: 40px;
   border-top: 1px solid #646369;
@@ -362,7 +370,7 @@ img {
 
 .lang-ul {
   display: flex;
-  gap: 25px;
+  gap: 57px;
 }
 
 .lang {
@@ -390,7 +398,7 @@ img {
 }
 
 .contact {
-  width: 707px;
+  width: 577px;
   font-family: 'Inter var', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -404,6 +412,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .form-control {
@@ -473,13 +483,11 @@ img {
   font-weight: normal;
   line-height: 24px;
   color: #81818c;
+  margin-bottom: 75px;
 }
 
-.footer-social {
-  display: flex;
-}
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 1000px) {
   *,
   *::before,
   *::after {
@@ -491,7 +499,9 @@ img {
   .right {
     display: none;
   }
-
+  .left {
+    padding-left: 20px;
+  }
   .nav-toggle {
     display: block;
   }
@@ -509,7 +519,23 @@ img {
   .list {
     flex: 1 1 50%;
   }
-
+  .big-name{
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;text-align: center;
+letter-spacing: 0.37px;
+color: #7D73FC;
+  }
+  .main a {
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #F5F5FF;
+}
   .circle-1 {
     width: 160px;
     height: 160px;
@@ -632,23 +658,25 @@ img {
   .work-name {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    align-self: baseline;
+    
   }
 
   .work-des {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: static;
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 28px;
-    color: #dfe1e6;
-    text-align: center;
-    padding: 33px;
+    color: #DCDCE8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
   }
 
   .work-lang {
@@ -684,6 +712,10 @@ img {
 
   .email {
     flex: 1 1 100%;
+  }
+
+  .see-project{
+    align-self: start;
   }
 
   @media only screen and (max-width: 370px) {
