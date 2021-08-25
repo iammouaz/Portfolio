@@ -97,9 +97,12 @@ button {
 }
 
 .right {
-  margin-right: 30px;
+  padding-right: 100px;
 }
 
+.left{
+  padding-left: 100px;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -452,7 +455,7 @@ button {
   color: #81818c;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 590px) {
   *,
   *::before,
   *::after {
@@ -571,35 +574,35 @@ button {
   }
 
   .item1 {
-    order: 2;
-  }
-
-  .item2 {
     order: 1;
   }
 
-  .item3 {
-    order: 3;
+  .item2 {
+    order: 2;
   }
 
-  .item4 {
+  .item3 {
     order: 4;
   }
 
-  .item5 {
-    order: 6;
+  .item4 {
+    order: 3;
   }
 
-  .item6 {
+  .item5 {
     order: 5;
   }
 
+  .item6 {
+    order: 6;
+  }
+
   .item7 {
-    order: 7;
+    order: 8;
   }
 
   .item8 {
-    order: 8;
+    order: 7;
   }
 
   .work-name {
@@ -644,7 +647,7 @@ button {
 
   @media only screen and (max-width: 370px) {
     body {
-      margin-right: -85px;
+      margin-right: -230px;
     }
   }
 }
