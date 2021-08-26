@@ -94,8 +94,8 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  
 }
+
 .menu_item:hover {
   text-decoration: underline;
 }
@@ -127,7 +127,7 @@ img {
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
-  transition: 2s
+  transition: 2s;
 }
 
 .big-name:hover {
@@ -615,10 +615,10 @@ img {
     transition: 1s ease-out;
   }
 
-  .project-img:hover{
+  .project-img:hover {
     width: 435px;
   }
-  
+
 
   .recent-work {
     align-items: center;
