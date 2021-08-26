@@ -604,7 +604,13 @@ img {
   .project-img {
     width: 400px;
     height: auto;
+    transition: 1s ease-out;
   }
+
+  .project-img:hover{
+    width: 435px;
+  }
+  
 
   .recent-work {
     align-items: center;
