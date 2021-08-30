@@ -3,12 +3,20 @@
 # Portfolio
 
 > this is the My Portfolio Project .
-> ![screenshot](./img/Screenshot.png)
+> ![screenshot](./img/Screenshot1.png)
+> ![screenshot](./img/Screenshot2.png)
+
+
+
+## Getting Started
+
+ [Live Demo](https://iammouaz.github.io/Portfolio/)
   
 ## Built With
 
 - HTML
 - CSS
+
 
 ## Getting Started
 
