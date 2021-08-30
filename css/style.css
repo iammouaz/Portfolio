@@ -1,5 +1,4 @@
 .body {
-  max-width: 95%;
   position: relative;
   background: #191765;
   display: grid;
@@ -127,6 +126,14 @@ img {
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
+  transition: 2s;
+}
+
+.big-name:hover {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  transform: translateY(63%);
 }
 
 .small-name {
@@ -604,6 +611,11 @@ img {
   .project-img {
     width: 400px;
     height: auto;
+    transition: 1s ease-out;
+  }
+
+  .project-img:hover {
+    width: 435px;
   }
 
   .recent-work {
