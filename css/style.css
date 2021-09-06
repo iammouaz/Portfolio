@@ -503,19 +503,30 @@ img {
   }
   
   .list-mo {
-  list-style: none;
-  color: #EDECFF;
- font-family: Roboto;
+    top: -85px;
+    left: -21px;
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+  
+  .mobile-me {
+flex: 1 1 50%;
+color: #EDECFF;
+font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 32px;
   }
-  
-  .mobile-me {
-  
-  }
-
+  .menu-click{
+    flex: 1 1 50%;
+    max-width: 30px;
+    position: relative;
+    left: -272px;
+    }
   .right {
     display: none;
   }
@@ -551,12 +562,13 @@ line-height: 32px;
     left: -7px;
     margin-top: 500px;
     height: 939px;
-  }
-  .close{
+}
+  .close {
+    top: 213px;
     width: 29px;
-
-  }
-
+    position: absolute;
+    right: 375px;
+}
 
   .big-name {
     font-style: normal;
