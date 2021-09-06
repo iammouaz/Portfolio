@@ -49,6 +49,9 @@ img {
 .Hamburger-me{
   display: none;
 }
+.close-mobile{
+  display: none;
+}
 
 .toolbar {
   display: flex;
@@ -552,6 +555,9 @@ line-height: 32px;
   .list {
     flex: 1 1 50%;
   }
+.close-mobile{
+  display: none;
+}
 
   .Hamburger-me{
     width: 800px;
