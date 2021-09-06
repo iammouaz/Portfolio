@@ -46,6 +46,10 @@ img {
   width: 105%;
 }
 
+.Hamburger-me{
+  display: none;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -523,6 +527,22 @@ img {
   .list {
     flex: 1 1 50%;
   }
+
+  .Hamburger-me{
+    width: 800px;
+    background-color: rgba(25, 23, 101, 1);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -7px;
+    margin-top: 500px;
+    height: 939px;
+  }
+  .close{
+    width: 29px;
+
+  }
+
 
   .big-name {
     font-style: normal;
