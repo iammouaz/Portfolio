@@ -166,7 +166,7 @@ img {
 .circle-1 {
   background-size: 257px;
   background-repeat: no-repeat;
-  background-image: url(/img/circle-1.png);
+  background-image: url(../img/circle-1.png);
   height: 568px;
   width: 589px;
   position: absolute;
@@ -522,7 +522,7 @@ img {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    background-image: url(/img/right-menu.png);
+    background-image: url(../img/right-menu.png);
     background-repeat: no-repeat;
     background-position-x: 335px;
   }
@@ -546,7 +546,7 @@ img {
 
   .nav-toggle {
     display: inline-block;
-    background-image: url(/img/menu.png);
+    background-image: url(../img/menu.png);
   }
 
   .main {
@@ -578,7 +578,7 @@ img {
     height: 100vh;
     transition: 1s ease-in-out;
     z-index: 10;
-    background-image: url(/img/Cancel.png) !important;
+    background-image: url(img/Cancel.png) !important;
     background-repeat: no-repeat;
   }
 
@@ -592,7 +592,7 @@ img {
     margin-top: 690px;
     height: 100vh;
     transition: 1s ease-in-out;
-    background-image: url(/img/shape-1.png);
+    background-image: url(../img/shape-1.png);
     background-repeat: no-repeat;
     background-size: 40vh;
   }
@@ -638,7 +638,7 @@ img {
 
   .circle-1 {
     top: 75px;
-    background-image: url(/img/circle-1.png);
+    background-image: url(../img/circle-1.png);
     height: 500px;
     width: 500px;
     position: absolute;
