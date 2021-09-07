@@ -610,11 +610,11 @@ img {
   }
 
   .close {
-    top: -20px;
+    bottom: 277px;
     width: 29px;
-    position: absolute;
-    right: 345px;
-  }
+    position: relative;
+    right: -33px;
+}
 
   .big-name {
     font-style: normal;
