@@ -589,7 +589,7 @@ img {
     flex-direction: column;
     position: fixed;
     left: -7px;
-    margin-top: 690px;
+    margin-top: 775px;
     height: 100vh;
     transition: 1s ease-in-out;
     background-image: url(../img/shape-1.png);
