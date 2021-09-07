@@ -537,10 +537,13 @@ img {
 
   .left {
     padding-left: 20px;
+    top: 14px;
+    position: relative;
   }
 
   .nav-toggle {
-    display: block;
+    display: inline-block;
+    background-image: url(/img/menu.png);
   }
 
   .main {
@@ -572,6 +575,8 @@ img {
     height: 100vh;
     transition: 1s ease-in-out;
     z-index: 10;
+    background-image: url(/img/Cancel.png) !important;
+    background-repeat: no-repeat;
   }
 
   .Hamburger-me {
@@ -587,6 +592,18 @@ img {
     background-image: url(/img/shape-1.png);
     background-repeat: no-repeat;
     background-size: 40vh;
+  }
+
+  .hamburger-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .hamburger-img-active {
+    width: 90%;
+    position: relative;
+    top: 20px;
+    opacity: 0%;
   }
 
   .close {
