@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Moaz's Portfolio</title>
 </head>
-
 <body class="body">
-
     <header class="toolbar">
         <nav class=left>
             <a class=my-name>Mouaz El Molkey</a>
@@ -30,18 +28,27 @@
             <a class=menu_item>Contact</a>
             <img class="menu_mail" src="./img/mail.png" alt="Email Icon">
         </nav>
-        <nav class="nav-toggle" id="navToggle">
-            <img src="./img/menu.png" alt="Hamburger Menu">
+        <nav id="navToggle" class="nav-toggle">
+            <div id="hamburger-img" class="hamburger-img"></div>
+            <div class="Hamburger-me">
+                <img class="close" id="cancel" src="./img/Cancel.png" alt="Close">
+            <ul class="list-mo">
+               <li id="Portfolio-link" class="mobile-me"><a class="ham-names" href="#portfolio"> Portfolio</a></li>
+                <li id="About-link" class="mobile-me"><a class="ham-names" href="#About">About</a></li>
+                <li id="contact_me-link" class="mobile-me"><a class="ham-names" href="#contact_me">Contact</a></li>
+         </ul>   
+        </div>
         </nav>
-
+        <div id="hamburger-menu" class="close-mobile">
+    <img class="close" src="./img/Cancel.png" alt="Close">
+        </div>
     </header>
-    <section class="intro">
+    <section id="intro" class="intro">
         <h1 class="big-name"> Mouaz El Molkey</h1>
-        <img src="./img/circle-1.png" class="circle-1" alt="circle">
         <h2 class="small-name">Software Developer</h2>
     </section>
-
-    <section class="main-section">
+ <div class="circle-1"></div>
+    <section id="portfolio" class="main-section">
         <p class="can-do">I can help you build a product , feature or website Look through some of my work and
             experience! If you like what you see and have a project you need coded, don’t hestiate to contact me</p>
         <img src="./img/circle-2.png" class="circle-2" alt="circle">
@@ -96,11 +103,11 @@
 
         <div class="arrow-right"><img src="./img/right.png" alt="Right Arrow"></div>
     </section>
-    <section class="my-works">
+    <section  class="my-works">
         <h2 class="lets">My Recent Works</h2>
         <img src="./img/circle-3.png" class="circle-3" alt="circle">
         <img src="./img/circle-4.png" class="circle-4" alt="circle">
-        <div class="all-items">
+        <div id="About" class="all-items">
             <div class="works item1"><img class="project-img" src="./img/project.png" alt="Porject-1"></div>
             <div class="works item2">
                 <h3 class="work-name">Multi-Post Stories</h3>
@@ -179,7 +186,7 @@
         <p class="lets">Let’s chat!</p>
         <p class="contact">If you have an application you are interested in developing, a feature that you need built or
             a project that needs coding. I’d love to help with it </p>
-        <form method="POST" class="contactForm" action="https://formspree.io/f/mqkwgokn">
+        <form  id="contact_me" method="POST" class="contactForm" action="https://formspree.io/f/mqkwgokn">
             <input type="text" class="form-control" name="firstname" maxlength="30" required placeholder="Your Name">
             <input type="email" class="form-control" name="email" required placeholder="Email">
             <textarea name="message" class="form-massage" required placeholder="Write Your Massage Here" maxlength="500"></textarea>
@@ -196,7 +203,7 @@
             </ul>
         </section>
     </footer>
-
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>

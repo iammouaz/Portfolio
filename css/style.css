@@ -46,6 +46,14 @@ img {
   width: 105%;
 }
 
+.Hamburger-me {
+  display: none;
+}
+
+.close-mobile {
+  display: none;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -99,6 +107,10 @@ img {
   text-decoration: underline;
 }
 
+.ham-names {
+  font-size: 23px;
+}
+
 .left,
 .right {
   display: flex;
@@ -126,14 +138,6 @@ img {
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
-  transition: 2s;
-}
-
-.big-name:hover {
-  color: white;
-  font-size: 60px;
-  font-weight: 700;
-  transform: translateY(63%);
 }
 
 .small-name {
@@ -160,13 +164,14 @@ img {
 }
 
 .circle-1 {
+  background-size: 257px;
+  background-repeat: no-repeat;
+  background-image: url(../img/circle-1.png);
+  height: 568px;
+  width: 589px;
   position: absolute;
-  width: 184px;
-  height: 184px;
-  left: 69px;
-  top: 237px;
-  background: #edecff;
-  filter: blur(50px);
+  top: 163px;
+  left: 35px;
 }
 
 .circle-2 {
@@ -498,16 +503,50 @@ img {
     align-items: center;
   }
 
+  .list-mo {
+    top: -235px;
+    left: -174px;
+    list-style: none;
+    row-gap: 32px;
+    column-gap: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .mobile-me {
+    flex: 1 1 100%;
+    color: #edecff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    background-image: url(../img/right-menu.png);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+  }
+
+  .menu-click {
+    flex: 1 1 50%;
+    max-width: 30px;
+    position: relative;
+    left: -272px;
+  }
+
   .right {
     display: none;
   }
 
   .left {
     padding-left: 20px;
+    top: 14px;
+    position: relative;
   }
 
   .nav-toggle {
-    display: block;
+    display: inline-block;
+    background-image: url(../img/menu.png);
   }
 
   .main {
@@ -522,6 +561,59 @@ img {
 
   .list {
     flex: 1 1 50%;
+  }
+
+  .close-mobile {
+    display: none;
+  }
+
+  .Hamburger-active {
+    width: 806px;
+    background-color: rgba(25, 23, 101, 1);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -7px;
+    margin-top: 83px;
+    height: 200vh;
+    transition: 1s ease-in-out;
+    z-index: 10;
+    background-image: url(../img/Cancel.png) !important;
+    background-repeat: no-repeat;
+  }
+
+  .Hamburger-me {
+    width: 806px;
+    background-color: rgba(25, 23, 101, 1);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -7px;
+    margin-top: 775px;
+    height: 100vh;
+    transition: 1s ease-in-out;
+    background-image: url(../img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+  }
+
+  .hamburger-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .hamburger-img-active {
+    width: 90%;
+    position: relative;
+    top: 20px;
+    opacity: 0%;
+  }
+
+  .close {
+    bottom: 277px;
+    width: 29px;
+    position: relative;
+    right: -33px;
   }
 
   .big-name {
@@ -545,12 +637,12 @@ img {
   }
 
   .circle-1 {
-    width: 160px;
-    height: 160px;
-    left: -106px;
-    top: 0;
-    background: #edecff;
-    filter: blur(50px);
+    top: 75px;
+    background-image: url(../img/circle-1.png);
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: -157px;
   }
 
   .circle-2 {
