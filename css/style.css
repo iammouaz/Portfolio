@@ -512,7 +512,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-}
+  }
 
   .mobile-me {
     flex: 1 1 100%;
@@ -525,7 +525,7 @@ img {
     background-image: url(/img/right-menu.png);
     background-repeat: no-repeat;
     background-position-x: 335px;
-    }
+  }
 
   .menu-click {
     flex: 1 1 50%;
