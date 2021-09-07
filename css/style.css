@@ -105,17 +105,24 @@ img {
 .menu_item:hover {
   text-decoration: underline;
 }
+.ham-names{
+  font-size: 23px;
+}
 
 .left,
 .right {
   display: flex;
 }
 
+
 .intro {
   display: flex;
   flex-direction: column;
   padding-top: 115px;
+
 }
+
+
 
 .menu_mail {
   display: block;
@@ -133,7 +140,6 @@ img {
   color: #7d73fc;
   margin: 12px 0;
   flex: 2;
-  transition: 2s;
 }
 
 
@@ -161,13 +167,14 @@ img {
 }
 
 .circle-1 {
+  background-size: 257px;
+  background-repeat: no-repeat;
+  background-image: url(/img/circle-1.png);
+  height: 568px;
+  width: 589px;
   position: absolute;
-  width: 184px;
-  height: 184px;
-  left: 69px;
-  top: 237px;
-  background: #edecff;
-  filter: blur(50px);
+  top: 163px;
+  left: 35px;
 }
 
 .circle-2 {
@@ -500,10 +507,11 @@ img {
   }
   
   .list-mo {
-    top: -85px;
-    left: -21px;
+    top: -258px;
+    left: -25px;
     list-style: none;
-    gap: 50px;
+    row-gap: 32px;
+    column-gap: 69px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -561,8 +569,9 @@ line-height: 32px;
   position: fixed;
   left: -7px;
   margin-top: 83px;
-    height: 100vh;
+  height: 100vh;
   transition: 1s ease-in-out;
+  z-index: 10;
 }
 
 .Hamburger-me {
@@ -575,6 +584,9 @@ line-height: 32px;
   margin-top: 690px;
   height: 100vh;
   transition: 1s ease-in-out;
+  background-image: url(/img/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 40vh;
 }
 .close {
   top: -20px;
@@ -607,13 +619,13 @@ line-height: 32px;
   }
 
   .circle-1 {
-    width: 160px;
-    height: 160px;
-    left: -106px;
-    top: 0;
-    background: #edecff;
-    filter: blur(50px);
-  }
+    top: 75px;
+    background-image: url(/img/circle-1.png);
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: -157px;
+}
 
   .circle-2 {
     position: absolute;
