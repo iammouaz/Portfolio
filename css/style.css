@@ -494,6 +494,56 @@ img {
   margin-bottom: 75px;
 }
 
+.popup {
+  position: fixed;
+  width: 1125px;
+  top: 9px;
+  height: 1176px;
+  background: rgba(255, 255, 255, 0.16);
+  z-index: 10;
+}
+.all-popup{
+  background: rgba(162, 163, 174, 1);
+  position: fixed;
+width: 1440px;
+height: 1469px;
+top: 0;
+}
+
+.popup-name{
+  font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background-image: url(../img/Cancel.png);
+background-repeat: no-repeat;
+background-position-x: 1000px;
+position: relative;
+left: 30px;
+}
+.snapshoot {
+  position: relative;
+  background-image: url(../img/Snapshoot.png);
+  max-width: 779px;
+  height: 496px;
+  background-position: center;
+  left: 159px;
+  background-repeat: no-repeat;
+}
+.p-popup {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 756px;
+  position: relative;
+  left: 190px;
+}
 @media only screen and (max-width: 1000px) {
   *,
   *::before,
