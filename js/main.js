@@ -57,6 +57,7 @@ const projects = [
 const popup = document.getElementById('popup');
 projects.forEach((item) => {
   popup.innerHTML += `
+
 <h2 class="popup-name">${item.headerCard}</h2>
 <div class="snapshoot"> <img class="snapshoot-img" src="${item.imageURL}" alt="Project"></div>
 <p class="p-popup">${item.textCard}</p>
@@ -72,6 +73,6 @@ projects.forEach((item) => {
  <form action="${item.projectURL}" method="get" target="_blank">
          <button class="popup-button" type="submit">See Source</button>
       </form>
-      <div/>
+      </div>
 `;
 });
