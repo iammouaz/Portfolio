@@ -76,3 +76,21 @@ projects.forEach((item) => {
       </div>
 `;
 });
+
+const form = document.getElementById('contact_me');
+const formEmail = document.getElementById('email');
+const ErrorMsg = document.getElementById('error');
+
+function IsItLowercase(str) {
+  return str === str.toLowerCase();
+}
+
+form.addEventListener('submit', (event) => {
+  if (!IsItLowercase(formEmail.value)) {
+    ErrorMsg.innerHTML = 'The Email Address has to be Lower Case';
+    formEmail.classList.add('email-error');
+    event.preventDefault();
+  } else {
+    ErrorMsg.innerHTML = '';
+  }
+});
