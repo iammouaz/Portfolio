@@ -914,6 +914,48 @@
     .see-project {
       align-self: start;
     }
+
+    .popup-active {
+      width: 363px;
+      height: 837px;
+      left: 140px;
+      top: 51px;
+      position: fixed;
+  }
+  .all{
+    width: 327px;
+    height: 837px;
+    left: 24px;
+    top: 51px;  
+    position: fixed;
+    display: none;
+  }
+
+  .snapshoot-img {
+    position: relative;
+    right: 127px;
+    width: 279px;
+    height: 181px;
+}
+.lang-ul-popup {
+  display: flex;
+  position: relative;
+  left: -22px;
+  top: -289px;
+}
+
+.p-popup {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 300px;
+  left: 25px;
+  position: relative;
+  top: -319px;
+}
   
     @media only screen and (max-width: 370px) {
       body {
