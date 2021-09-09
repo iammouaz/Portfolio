@@ -96,7 +96,7 @@ form.addEventListener('submit', (event) => {
 });
 
 const formStorage = document.getElementById('contact_me');
-const nameStore = formStorage.elements.name;
+const nameStore = formStorage.elements.firstname;
 const emailStore = formStorage.elements.email;
 const messageStore = formStorage.elements.message;
 
