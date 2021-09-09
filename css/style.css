@@ -600,6 +600,16 @@ img {
   width: 123%;
 }
 
+.error {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  height: 36px;
+  max-width: 206px;
+  position: relative;
+  top: -113px;
+}
+
 @media only screen and (max-width: 1000px) {
   *,
   *::before,

@@ -193,9 +193,10 @@
             a project that needs coding. I’d love to help with it </p>
         <form  id="contact_me" method="POST" class="contactForm" action="https://formspree.io/f/mqkwgokn">
             <input type="text" class="form-control" name="firstname" maxlength="30" required placeholder="Your Name">
-            <input type="email" class="form-control" name="email" required placeholder="Email">
+            <input id="email" type="email" class="form-control" name="email" required placeholder="Email">
             <textarea name="message" class="form-massage" required placeholder="Write Your Massage Here" maxlength="500"></textarea>
             <input type="submit" value="Send Message" class="button">
+        <div id="error" class="error"></div>
         </form>
         <section class="footer-social">
             <ul class=social-list-footer>
