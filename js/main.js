@@ -94,3 +94,28 @@ form.addEventListener('submit', (event) => {
     ErrorMsg.innerHTML = '';
   }
 });
+
+const formStorage = document.getElementById('contact_me');
+const nameStore = formStorage.elements.firstname;
+const emailStore = formStorage.elements.email;
+const messageStore = formStorage.elements.message;
+
+function dataStorage() {
+  const formData = {
+
+    name: nameStore.value,
+    email: emailStore.value,
+    message: messageStore.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+nameStore.onchange = dataStorage;
+emailStore.onchange = dataStorage;
+messageStore.onchange = dataStorage;
+
+const storeData = JSON.parse(localStorage.getItem('formData'));
+
+nameStore.value = storeData.name;
+emailStore.value = storeData.email;
+messageStore.value = storeData.message;
