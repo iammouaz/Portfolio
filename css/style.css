@@ -21,11 +21,20 @@ a {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
+  transition: 500ms ease-in-out;
 }
 
 a:hover {
-  color: #6c63b9;
+  color: #3399FF;
   text-decoration: underline;
+}
+.social-list-footer:hover{
+  gap: 15px;
+}
+
+
+.fa-lg:hover {
+  font-size: 2.33333333em;
 }
 
 button {
@@ -311,12 +320,21 @@ img {
   gap: 10px;
   text-align: center;
   margin-left: -50px;
+  transition: 500ms  ease-in-out;
+  margin-bottom: 15%;
 }
 
 .social-items {
   width: 40px;
   text-decoration: none;
 }
+
+.social-it{
+transition: 500ms  ease-in-out;
+margin-top: 0%;
+}
+
+
 
 .main-icons {
   display: flex;
@@ -608,6 +626,14 @@ img {
   max-width: 206px;
   position: relative;
   top: -113px;
+}
+
+
+.email:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -928,6 +954,7 @@ img {
   .social-list-footer {
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
   }
 
   .email {
@@ -1015,14 +1042,37 @@ img {
     margin-left: 13%;
   }
 
+
   .popup-container {
     display: flex;
     flex-direction: column;
   }
 
+  .social-list-footer:hover {
+    gap: 25px;
+}
+
   @media only screen and (max-width: 370px) {
     body {
       margin-right: -230px;
     }
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
