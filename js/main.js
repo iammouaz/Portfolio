@@ -46,12 +46,12 @@ seeproject3.addEventListener('click', () => {
 
 const projects = [
   {
-    headerCard: 'Profesional Art Printing Data More',
-    textCard: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-    badgesCard: ['html', 'bootstrap', 'Ruby'],
-    imageURL: '../img/Snapshoot.png',
-    liveURL: 'https://www.github.com',
-    projectURL: 'https://www.github.com/iammouaz',
+    headerCard: 'To Do List',
+    textCard: 'To-Do task List project which can add/edit/remove (one or multiple) tasks with browser local storage interaction.',
+    badgesCard: ['javascript', 'css', 'webpack'],
+    imageURL: '../img/todolist.png',
+    liveURL: 'https://iammouaz.github.io/To-Do-list',
+    projectURL: 'https://github.com/iammouaz/To-Do-list',
   },
 ];
 const popup = document.getElementById('popup');
