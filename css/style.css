@@ -25,13 +25,9 @@ a {
 }
 
 a:hover {
-  color: #3399FF;
+  color: #39f;
   text-decoration: underline;
 }
-.social-list-footer:hover{
-  gap: 15px;
-}
-
 
 .fa-lg:hover {
   font-size: 2.33333333em;
@@ -324,17 +320,19 @@ img {
   margin-bottom: 15%;
 }
 
+.social-list-footer:hover {
+  gap: 15px;
+}
+
 .social-items {
   width: 40px;
   text-decoration: none;
 }
 
-.social-it{
-transition: 500ms  ease-in-out;
-margin-top: 0%;
+.social-it {
+  transition: 500ms  ease-in-out;
+  margin-top: 0%;
 }
-
-
 
 .main-icons {
   display: flex;
@@ -628,9 +626,8 @@ margin-top: 0%;
   top: -113px;
 }
 
-
 .email:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
@@ -1042,7 +1039,6 @@ margin-top: 0%;
     margin-left: 13%;
   }
 
-
   .popup-container {
     display: flex;
     flex-direction: column;
@@ -1050,7 +1046,7 @@ margin-top: 0%;
 
   .social-list-footer:hover {
     gap: 25px;
-}
+  }
 
   @media only screen and (max-width: 370px) {
     body {
@@ -1060,19 +1056,24 @@ margin-top: 0%;
 }
 
 @keyframes shake {
-  10%, 90% {
+  10%,
+  90% {
     transform: translate3d(-1px, 0, 0);
   }
-  
-  20%, 80% {
+
+  20%,
+  80% {
     transform: translate3d(2px, 0, 0);
   }
 
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(-4px, 0, 0);
   }
 
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(4px, 0, 0);
   }
 }
