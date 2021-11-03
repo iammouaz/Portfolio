@@ -103,14 +103,10 @@
 
         <div class="arrow-right"><img src="./img/right.png" alt="Right Arrow"></div>
     </section>
+    <div class="trans"></div>
+    <div class="popups" id="popup"></div>
     <section  class="my-works">
         <h2 class="lets">My Recent Works</h2>
-        <div id="popup" class="popup"><div class="all"></div><div  class="x" onclick="popupwindow.classList.remove('popup-active')">+</div></div>
-        <div id="popup1" class="popup"><div class="all"></div><div class="x" onclick="popupwindow.classList.remove('popup-active')">+</div></div>
-        <div id="popup2" class="popup"><div class="all"></div><div class="x" onclick="popupwindow.classList.remove('popup-active')">+</div></div>
-        <div id="popup3" class="popup"><div class="all"></div><div class="x" onclick="popupwindow.classList.remove('popup-active')">+</div></div>
-        <div id="popup4" class="popup"><div class="all"></div><div class="x" onclick="popupwindow.classList.remove('popup-active')">+</div></div>
-
         <img src="./img/circle-3.png" class="circle-3" alt="circle">
         <img src="./img/circle-4.png" class="circle-4" alt="circle">
         <div id="About" class="all-items">
@@ -127,59 +123,50 @@
                         <li class="lang">Webpack</li>
                     </ul>
                 </div>
-                <button id="see-project" class="see-project">See Project</button>
+                <button onclick="CreatePopup(projects[0])" id="see-project" class="see-project">See Project</button>
             </div>
             <div class="works item3">
-                <h3 class="work-name">Multi-Post Stories</h3>
-                <p class="work-des">A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    standard dummy text.
+                <h3 class="work-name">'Math Magicians</h3>
+                <p class="work-des">It is a Single Page App (SPA) that allows users to make simple calculations and to read a random math-related quote.
                 </p>
                 <div class="work-lang">
                     <ul class="lang-ul">
-                        <li class="lang">css</li>
-                        <li class="lang">html</li>
-                        <li class="lang">bootstrap</li>
-                        <li class="lang">ruby</li>
+                        <li class="lang">React</li>
+                        <li class="lang">Bootstrap</li>
+                        <li class="lang">CSS</li>
                     </ul>
                 </div>
-                <button id="see-project1" class="see-project">See Project</button>
+                <button onclick="CreatePopup(projects[1])" id="see-project1" class="see-project">See Project</button>
             </div>
-            <div class="works item4"><img class="project-img" src="./img/project.png" alt="Porject1-2"></div>
-            <div class="works item5"><img class="project-img" src="./img/project.png" alt="Porject1-2"></div>
+            <div class="works item4"><img class="project-img" src="./img/math.png" alt="Porject1-2"></div>
+            <div class="works item5"><img class="project-img" src="./img/TV.png" alt="Porject1-2"></div>
             <div class="works item6">
-                <h3 class="work-name">Multi-Post Stories</h3>
-                <p class="work-des">A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    standard dummy text.
+                <h3 class="work-name">Best TVShows</h3>
+                <p class="work-des">A website that shows information pulled from TVmaze API about some popular TV Shows.
                 </p>
                 <div class="work-lang">
                     <ul class="lang-ul">
-                        <li class="lang">css</li>
-                        <li class="lang">html</li>
-                        <li class="lang">bootstrap</li>
-                        <li class="lang">ruby</li>
+                        <li class="lang">JavaScript</li>
+                        <li class="lang">Bootstrap</li>
+                        <li class="lang">API</li>
                     </ul>
                 </div>
-                <button id="see-project2" class="see-project">See Project</button>
+                <button onclick="CreatePopup(projects[2])" id="see-project2" class="see-project">See Project</button>
             </div>
             <div class="works item7">
-                <h3 class="work-name">Multi-Post Stories</h3>
-                <p class="work-des">A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    standard dummy text.
+                <h3 class="work-name">Leaderboard</h3>
+                <p class="work-des">The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
                 </p>
                 <div class="work-lang">
                     <ul class="lang-ul">
-                        <li class="lang">css</li>
-                        <li class="lang">html</li>
-                        <li class="lang">bootstrap</li>
-                        <li class="lang">ruby</li>
+                        <li class="lang">JavaScript</li>
+                        <li class="lang">CSS</li>
+                        <li class="lang">API</li>
                     </ul>
                 </div>
-                <button id="see-project3" class="see-project">See Project</button>
+                <button onclick="CreatePopup(projects[3])" id="see-project3" class="see-project">See Project</button>
             </div>
-            <div class="works item8"><img class="project-img" src="./img/project.png" alt="circles">
+            <div class="works item8"><img class="project-img" src="./img/leader.png" alt="circles">
             </div>
             <img src="./img/circle-5.png" class="circle-5" alt="circle">
         </div><img src="./img/circle-6.png" class="circle-6" alt="circle">

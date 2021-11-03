@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const hamburger = document.querySelector('#hamburger-img');
 const mobiletoggle = document.querySelector('#navToggle');
 hamburger.addEventListener('click', () => {
@@ -27,55 +28,87 @@ const seeproject = document.querySelector('#see-project');
 const seeproject1 = document.querySelector('#see-project1');
 const seeproject2 = document.querySelector('#see-project2');
 const seeproject3 = document.querySelector('#see-project3');
-const popupwindow = document.querySelector('#popup');
+const popupwindow = document.querySelector('.trans');
+const PopUpWindows = document.querySelector('.popups');
+const CloseEl = document.getElementById('closeEl');
 
 seeproject.addEventListener('click', () => {
   popupwindow.classList.add('popup-active');
+  PopUpWindows.classList.add('popup-active');
 });
 
 seeproject1.addEventListener('click', () => {
   popupwindow.classList.add('popup-active');
+  PopUpWindows.classList.add('popup-active');
 });
 
 seeproject2.addEventListener('click', () => {
   popupwindow.classList.add('popup-active');
+  PopUpWindows.classList.add('popup-active');
 });
 seeproject3.addEventListener('click', () => {
   popupwindow.classList.add('popup-active');
+  PopUpWindows.classList.add('popup-active');
 });
 
 const projects = [
   {
     headerCard: 'To Do List',
-    textCard: 'To-Do task List project which can add/edit/remove (one or multiple) tasks with browser local storage interaction.',
-    badgesCard: ['javascript', 'css', 'webpack'],
+    textCard: '    To-Do task List project which can add/edit/remove (one or multiple) tasks with browser local storage interaction.',
+    badgesCard: ['JavaScript', 'CSS', 'Webpack'],
     imageURL: '../img/todolist.png',
     liveURL: 'https://iammouaz.github.io/To-Do-list',
     projectURL: 'https://github.com/iammouaz/To-Do-list',
   },
+  {
+    headerCard: 'Math Magicians',
+    textCard: 'It is a Single Page App (SPA) that allows users to make simple calculations and to read a random math-related quote',
+    badgesCard: ['React', 'Bootstrap', 'CSS'],
+    imageURL: '../img/math.png',
+    liveURL: 'https://618297ed846a1b00085a858b--elated-mccarthy-57a100.netlify.app/',
+    projectURL: 'https://github.com/iammouaz/Math-Magicians',
+  },
+  {
+    headerCard: 'Best TVShows',
+    textCard: 'A website that shows information pulled from TVmaze API about some popular TV Shows.',
+    badgesCard: ['JavaScript', 'Bootstrap', 'API'],
+    imageURL: '../img/TV.png',
+    liveURL: 'https://iammouaz.github.io/JavaScript-capstone/',
+    projectURL: 'https://github.com/iammouaz/JavaScript-capstone',
+  },
+  {
+    headerCard: 'Leaderboard',
+    textCard: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+    badgesCard: ['JavaScript', 'CSS', 'API'],
+    imageURL: '../img/leader.png',
+    liveURL: 'https://iammouaz.github.io/leaderboard/',
+    projectURL: 'https://github.com/iammouaz/leaderboard',
+  },
 ];
-const popup = document.getElementById('popup');
-projects.forEach((item) => {
-  popup.innerHTML += `
 
-<h2 class="popup-name">${item.headerCard}</h2>
-<div class="snapshoot"> <img class="snapshoot-img" src="${item.imageURL}" alt="Project"></div>
-<p class="p-popup">${item.textCard}</p>
-<ul class="lang-ul-popup">
-<li class="lang">${item.badgesCard[0]}</li>
-<li class="lang">${item.badgesCard[1]}</li>
-<li class="lang">${item.badgesCard[2]}</li>
-</ul>
-<div class="button-from">
-<form  action="${item.liveURL}" method="get" target="_blank">
-         <button class="popup-button" type="submit">See Live</button>
-      </form>
- <form action="${item.projectURL}" method="get" target="_blank">
-         <button class="popup-button" type="submit">See Source</button>
-      </form>
-      </div>
-`;
-});
+const CreatePopup = (popus) => {
+  const popup = document.getElementById('popup');
+  popup.innerHTML += `
+  
+  <h2 class="popup-name">${popus.headerCard}</h2>
+  <div  class="x" id="closeEl" onClick="popupwindow.remove(),PopUpWindows.remove();">+</div>
+  <div class="snapshoot"> <img class="snapshoot-img" src="${popus.imageURL}" alt="Project"></div>
+  <p class="p-popup">${popus.textCard}</p>
+  <ul class="lang-ul-popup">
+  <li class="lang">${popus.badgesCard[0]}</li>
+  <li class="lang">${popus.badgesCard[1]}</li>
+  <li class="lang">${popus.badgesCard[2]}</li>
+  </ul>
+  <div class="button-from">
+  <form  action="${popus.liveURL}" method="get" target="_blank">
+           <button class="popup-button" type="submit">See Live</button>
+        </form>
+   <form action="${popus.projectURL}" method="get" target="_blank">
+           <button class="popup-button" type="submit">See Source</button>
+        </form>
+        </div>
+  `;
+};
 
 const form = document.getElementById('contact_me');
 const formEmail = document.getElementById('email');
