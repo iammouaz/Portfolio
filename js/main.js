@@ -29,27 +29,7 @@ const seeproject1 = document.querySelector('#see-project1');
 const seeproject2 = document.querySelector('#see-project2');
 const seeproject3 = document.querySelector('#see-project3');
 const popupwindow = document.querySelector('.trans');
-const PopUpWindows = document.querySelector('.popups');
 const CloseEl = document.getElementById('closeEl');
-
-seeproject.addEventListener('click', () => {
-  popupwindow.classList.add('popup-active');
-  PopUpWindows.classList.add('popup-active');
-});
-
-seeproject1.addEventListener('click', () => {
-  popupwindow.classList.add('popup-active');
-  PopUpWindows.classList.add('popup-active');
-});
-
-seeproject2.addEventListener('click', () => {
-  popupwindow.classList.add('popup-active');
-  PopUpWindows.classList.add('popup-active');
-});
-seeproject3.addEventListener('click', () => {
-  popupwindow.classList.add('popup-active');
-  PopUpWindows.classList.add('popup-active');
-});
 
 const projects = [
   {
@@ -86,24 +66,36 @@ const projects = [
   },
 ];
 
-const CreatePopup = (popus) => {
-  const popup = document.getElementById('popup');
-  popup.innerHTML += `
-  
-  <h2 class="popup-name">${popus.headerCard}</h2>
-  <div  class="x" id="closeEl" onClick="popupwindow.remove(),PopUpWindows.remove();">+</div>
-  <div class="snapshoot"> <img class="snapshoot-img" src="${popus.imageURL}" alt="Project"></div>
-  <p class="p-popup">${popus.textCard}</p>
+const removeDiv = () => {
+  const Popupwin = document.querySelector('.trans ');
+  const Popupwin1 = document.querySelector('.popups');
+  Popupwin.remove();
+  Popupwin1();
+};
+
+const CreatePopup = (props) => {
+  const CrPopup = document.createElement('div');
+  document.body.appendChild(CrPopup);
+  CrPopup.classList.add('trans');
+  CrPopup.classList.add('popup-active');
+  const AddPop = document.createElement('div');
+  CrPopup.appendChild(AddPop);
+  AddPop.classList.add('popups');
+  AddPop.innerHTML += `
+  <h2 class="popup-name">${props.headerCard}</h2>
+  <div  class="x" id="closeEl" onClick="removeDiv();">+</div>
+  <div class="snapshoot"> <img class="snapshoot-img" src="${props.imageURL}" alt="Project"></div>
+  <p class="p-popup">${props.textCard}</p>
   <ul class="lang-ul-popup">
-  <li class="lang">${popus.badgesCard[0]}</li>
-  <li class="lang">${popus.badgesCard[1]}</li>
-  <li class="lang">${popus.badgesCard[2]}</li>
+  <li class="lang">${props.badgesCard[0]}</li>
+  <li class="lang">${props.badgesCard[1]}</li>
+  <li class="lang">${props.badgesCard[2]}</li>
   </ul>
   <div class="button-from">
-  <form  action="${popus.liveURL}" method="get" target="_blank">
+  <form  action="${props.liveURL}" method="get" target="_blank">
            <button class="popup-button" type="submit">See Live</button>
         </form>
-   <form action="${popus.projectURL}" method="get" target="_blank">
+   <form action="${props.projectURL}" method="get" target="_blank">
            <button class="popup-button" type="submit">See Source</button>
         </form>
         </div>
