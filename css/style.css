@@ -634,12 +634,11 @@ img {
 }
 
 .trans {
-  mix-blend-mode: multiply;
   width: 212vh;
   height: 100vh;
   position: fixed;
   top: 0;
-  background: rgba(140, 140, 140, 1);
+  background: rgba(50, 50, 50, 0.7);
   display: none;
 }
 
@@ -652,7 +651,6 @@ img {
   position: fixed;
   top: 4%;
   left: 13%;
-  display: none;
 }
 
 @media only screen and (max-width: 1000px) {
