@@ -33,20 +33,20 @@ const CloseEl = document.getElementById('closeEl');
 
 const projects = [
   {
-    headerCard: 'To Do List',
-    textCard: '    To-Do task List project which can add/edit/remove (one or multiple) tasks with browser local storage interaction.',
-    badgesCard: ['JavaScript', 'CSS', 'Webpack'],
-    imageURL: '../Portfolio/img/todolist.png',
-    liveURL: 'https://iammouaz.github.io/To-Do-list',
-    projectURL: 'https://github.com/iammouaz/To-Do-list',
+    headerCard: 'Weather App',
+    textCard: 'App (SPA) to Show Countries Weather for today.',
+    badgesCard: ['React', 'Material Ui', 'Goweather API'],
+    imageURL: '../Portfolio/img/weather.png',
+    liveURL: 'https://boring-swirles-b652cc.netlify.app/',
+    projectURL: 'https://github.com/iammouaz/WeatherApp',
   },
   {
-    headerCard: 'Math Magicians',
-    textCard: 'It is a Single Page App (SPA) that allows users to make simple calculations and to read a random math-related quote',
-    badgesCard: ['React', 'Bootstrap', 'CSS'],
-    imageURL: '../Portfolio/img/math.png',
-    liveURL: 'https://618297ed846a1b00085a858b--elated-mccarthy-57a100.netlify.app/',
-    projectURL: 'https://github.com/iammouaz/Math-Magicians',
+    headerCard: 'Book Store',
+    textCard: 'Book Store completion tracking website built with React, and Redux. Users can add and delete books to track their reading progress.',
+    badgesCard: ['React', 'Redux', 'CSS'],
+    imageURL: '../Portfolio/img/bookstore.png',
+    liveURL: 'https://vigilant-engelbart-d1b17b.netlify.app/',
+    projectURL: 'https://github.com/iammouaz/Book-store',
   },
   {
     headerCard: 'Best TVShows',
@@ -57,12 +57,12 @@ const projects = [
     projectURL: 'https://github.com/iammouaz/JavaScript-capstone',
   },
   {
-    headerCard: 'Leaderboard',
-    textCard: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
-    badgesCard: ['JavaScript', 'CSS', 'API'],
-    imageURL: '../Portfolio/img/leader.png',
-    liveURL: 'https://iammouaz.github.io/leaderboard/',
-    projectURL: 'https://github.com/iammouaz/leaderboard',
+    headerCard: 'Cryptos Statistics',
+    textCard: 'Web application to show data and prices for top Crypto Currencies.',
+    badgesCard: ['React', 'Material Ui', 'API'],
+    imageURL: '../Portfolio/img/crypto.png',
+    liveURL: 'https://61bf44f23b43f2ee63187cf5--elastic-mestorf-f7a890.netlify.app/',
+    projectURL: 'https://github.com/iammouaz/cryptos-statistics',
   },
 ];
 
